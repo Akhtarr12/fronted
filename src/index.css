@@ -1,0 +1,69 @@
+
+
+
+
+:root {
+  --color-white: #ffffff;
+  --color-light-gray: #f5f5f5;
+  --color-soft-gray: #f9f9f9;
+  --color-light-blue: #80d8ff;
+  --color-soft-blue: #e3f2fd;
+  --color-dark-blue: #01579b;
+  --color-navy-blue: #1e3a8a;
+  --color-light-coral: #ff7043;
+  --color-mint-green: #a7ff5e;
+  --color-yellow: #fff3e0;
+  --color-orange: #ffecb3;
+  --color-dark-red: #d32f2f;
+}
+
+body {
+  background-color: var(--color-light-gray);
+  color: var(--color-dark-blue);
+}
+
+/* Rest of your custom styles */
+.bg-light-blue {
+  background-color: var(--color-light-blue);
+}
+.bg-soft-blue {
+  background-color: var(--color-soft-blue);
+}
+.bg-light-coral {
+  background-color: var(--color-light-coral);
+}
+.bg-mint-green {
+  background-color: var(--color-mint-green);
+}
+.bg-navy-blue {
+  background-color: var(--color-navy-blue);
+}
+.bg-yellow {
+  background-color: var(--color-yellow);
+}
+.bg-orange {
+  background-color: var(--color-orange);
+}
+
+.text-white {
+  color: var(--color-white);
+}
+.text-dark-blue {
+  color: var(--color-dark-blue);
+}
+.text-light-gray {
+  color: var(--color-light-gray);
+}
+.text-dark-red {
+  color: var(--color-dark-red);
+}
+
+.hover\:bg-dark-coral:hover {
+  background-color: #e65100;
+}
+.hover\:bg-dark-mint:hover {
+  background-color: #76ff03;
+}
+
+/* Ensure no inline styles or unsafe practices are used */
+
